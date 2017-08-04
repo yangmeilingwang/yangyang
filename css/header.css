@@ -14,7 +14,8 @@ ul {
 	list-style: none;
 }
 
-.cl {
+.cl:after{
+	content:"";
 	clear: both;
 }
 
@@ -37,7 +38,7 @@ ul {
 }
 
 .w1180 {
-	max-width: 1180px;
+	width: 1200px;
 	margin: 0 auto;
 	position: relative;
 }
@@ -98,6 +99,7 @@ ul {
 	position: relative;
 	background: url(../img/banner.jpg) center top no-repeat;
 	height: 1650px;
+	min-width:1200px
 }
 
 .banner img {

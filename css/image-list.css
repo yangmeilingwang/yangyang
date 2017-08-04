@@ -1,0 +1,6 @@
+.banner1 {
+	position: relative;
+	background: url(../img/banner1.jpg) center top no-repeat;
+	height: 1650px;
+	min-width:1200px
+}
