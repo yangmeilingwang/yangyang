@@ -90,7 +90,9 @@
 	margin-right: 20px;
 }
 
-
+.center_topa{
+	cursor: pointer;
+}
 /*@media only screen and (max-width: 1500px) {
 	.w1200 {
 		padding-top: 320px;
@@ -214,7 +216,7 @@
 	line-height: 48px;
 }
 
-.center_top p {
+.center_top .aaa {
 	font-size: 18px;
 	color: #FFFFFF;
 	background: #931f08;
