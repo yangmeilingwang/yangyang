@@ -1,0 +1,78 @@
+.footer {
+	border-top: 2px solid #931f08;
+	background: #f3f3f3;
+	width: 100%;
+	height: 158px;
+	min-width: 1200px;
+}
+
+.w810 {
+	width: 810px;
+	margin: 0 auto;
+	margin-top: 32px;
+}
+
+.w810 a {
+	font-size: 16px;
+}
+.guan a{
+	cursor: pointer;
+}
+.content {
+	width: 587px;
+	margin: 0 auto;
+	padding: 32px 0;
+}
+
+.content div {
+	float: left;
+	font-size: 14px;
+}
+
+.gongsi {
+	width: 393px;
+	margin: 0 auto;
+}
+
+.gongsi div {
+	float: left;
+	font-size: 14px;
+}
+/*页码*/
+.pagination_box{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	/*padding-bottom: 30px;*/
+	margin-top: 60px;
+}
+.pagination_box ul.pagination{
+	margin: 0;
+}
+.pagination > li {
+    display: inline;
+}
+.pagination > li > a {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #DDDDDD;
+    border: 1px solid #ddd;
+    margin: 0 2px;
+}
+.pagination > .active > a {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #921e07;
+    border-color: #cccccc;
+}
+.pagination > li:nth-child(4) a{
+	 border: 1px solid #ddd;
+	 background-color: #FFFFFF;
+	 color: #CCCCCC;
+}
