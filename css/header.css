@@ -8,6 +8,7 @@
 a {
 	color: #333;
 	text-decoration: none;
+	cursor: pointer;
 }
 
 ul {
@@ -126,8 +127,7 @@ ul {
 	opacity: 0.5;
 	z-index: 1;
 }
-
-.inner {
+.inner1 {
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -138,7 +138,7 @@ ul {
 	z-index: 2;
 }
 
-.inner video {
+.inner1 video {
 	width: 100%;
 }
 

@@ -6,6 +6,7 @@
 		<title>首页</title>
 		<link rel="stylesheet" href="css/header.css" />
 		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/gundong.css" />
 	</head>
 
 	<body>
@@ -19,7 +20,7 @@
 				<div class="top_right fr">
 					<a href="index.html" class="text">首页</a>
 					<div class="aa">
-						<a href="" class="text mu">木棺简介</a>
+						<a href="imade-list.html" class="text mu">木棺简介</a>
 						<div class="ul">
 							<a href="">本馆概况</a>
 							<a href="">联系我们</a>
@@ -28,7 +29,7 @@
 						</div>
 					</div>
 					<a href="" class="text">群文动态</a>
-					<a href="article-list.html" class="text">非遗文化</a>
+					<a href="" class="text">非遗文化</a>
 					<a href="" class="text">大事记</a>
 					<a href="" class="text">音视频</a>
 					<a href="" class="text">馆内团队</a>
@@ -38,13 +39,33 @@
 		</div>
 		<div class="banner cl">
 			<div class="w1200">
-				<div class="banner-header cl">
-					<p>通知公告：&nbsp; &nbsp;<span>贵州省组织推荐2017年中国文化馆年会征文活动通知 &nbsp; &nbsp; &nbsp;关于转发第二届“文化中国”微视频征集活动暨</span></p>
-					<div class="sh">
+				<div class="horn wm1200">
+			<p class="fl">通知公告：</p>
+			<div id="marquee">
+				<div class="inner">
+					<a href="">
+						<div><span><a>贵州省组织推荐2017年中国文化馆年会征文活动通知&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关于转发第二届“文化中国”微视频征集活动暨</a></span></div>
+					</a>
+					<a href="">
+						<div><span><a>贵州省组织推荐2017年中国文化馆年会征文活动通知&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关于转发第二届“文化中国”微视频征集活动暨</a></span></div>
+					</a>
+					<a href="">
+						<div><span><a>贵州省组织推荐2017年中国文化馆年会征文活动通知&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关于转发第二届“文化中国”微视频征集活动暨</a></span></div>
+					</a>
+					<a href="">
+						<div><span><a>贵州省组织推荐2017年中国文化馆年会征文活动通知&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关于转发第二届“文化中国”微视频征集活动暨</a></span></div>
+					</a>
+					<a href="">
+						<div><span><a>贵州省组织推荐2017年中国文化馆年会征文活动通知&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关于转发第二届“文化中国”微视频征集活动暨</a></span></div>
+					</a>
+				</div>
+			</div>
+			<div class="sh">
 						<input type="text" value="站内检索" onfocus="this.value=''" onblur="if(this.value==''){this.value=''}" />
 						<button type="submit"></button>
 					</div>
-				</div>
+		</div>	
+		
 				<div class="main_top cl">
 					<div class="main_left fl">
 						<div class="left_top">
@@ -97,8 +118,8 @@
 				</div>
 				<div class="main_center">
 					<div class="center_top">
-						<a href="imade-list.html" class="fl aaa">非遗文化</a>
-						<a href="imade-list.html" class="fr">更多&gt;&gt;</a>
+						<p class="fl">非遗文化</p>
+						<a class="fr">更多&gt;&gt;</a>
 					</div>
 					<div class="center_img">
 						<div class="pic1 fl">
@@ -135,8 +156,8 @@
 					</div>
 					<div class="center_bottom">
 						<div class="center_top ma10">
-							<a href="imade-list.html" class="fl aaa">音视屏</a>
-							<a href="imade-list.html" class="fr">更多&gt;&gt;</a>
+							<p class="fl">音视屏</p>
+							<a class="fr">更多&gt;&gt;</a>
 						</div>
 						<div class="center_img">
 							<div class="pic1 fl im">
@@ -201,12 +222,14 @@
 		</div>
 		<div id="box2">  
 			<div class="shadow"></div>
-			<div class="inner">
+			<div class="inner1">
 				<a href="javascript:;" class="closed">X</a>
 				<video src=""autoplay controls></video>
 			</div>
 		</div>
 		<script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
+		<script type="text/javascript" src="js/jquery.liMarquee.js" ></script>
+		<script type="text/javascript" src="js/index.js" ></script>
 			<script>
 			$(".center_img>.im").each(function() {
 				$(this).click(function() {
